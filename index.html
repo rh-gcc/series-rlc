@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Series RLC Circuit Practice Problem Generator</title>
+  
+		<meta charset="utf-8">
+	  	<title>Series RLC Circuit Practice Problem Generator</title>
+	  	<meta name="description" content="">
+	  	<meta name="author" content="">
+
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	  	<link rel="stylesheet" href="css/normalize.css">
+	  	<link rel="stylesheet" href="css/skeleton.css">
+	</head>
+	<body>
+		<div class="container">
+			<br />
+			<div class="row">
+				<div class="eight columns offset-by-two centre-text">
+					<h1 class="h4" style="margin-bottom: 0;">Series RLC Circuit</h5>
+					<h1 class="h1">Practice Problem Generator</h2>
+				</div>
+			</div>	
+			
+			<br />
+
+			<div class="row">
+				<div class="eight columns offset-by-two">
+					<div id="question">
+						<img id="circuitDiagram" class="centre-image" />			
+						<ul id="componentValues" class="centre-text"></ul>
+						<p id="questionText" class="centre-text"></p>
+					</div>
+				</div>
+			</div>	
+
+			
+			<div class="row">
+				<div class="eight columns offset-by-two">
+					<div id="solutions" style="display: none;">
+						<button id="toggleFinalAnswers" class="u-full-width">Show/Hide Final Answers</button>
+						<div id="finalAnswersWrapper" class="centre-text">
+							<br />
+							<p id="finalAnswers"></p>
+							<hr />
+						</div>
+
+						<button id="toggleWorkedSolution" class="u-full-width">Show/Hide Worked Solution</button>
+						<div id="workedSolutionWrapper" class="centre-text">
+							<br />
+							<div id="workedSolution"></div>
+						</div>
+					</div>
+					<button id="generateNewProblem" class="u-full-width">Generate New Problem</button>
+				</div>
+			</div>
+			<br />
+		</div>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
